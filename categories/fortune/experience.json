@@ -7,28 +7,11 @@
   },
   "sources": [
     {
-      "type": "puffish_skills:increase_stat",
+      "type": "puffish_skills:mine_block",
       "data": {
-        "variables": {
-          "is_mine": {
-            "operations": [
-              { "type": "get_stat" },
-              {
-                "type": "puffish_skills:test",
-                "data": {
-                  "stat": "minecraft.mined"
-                }
-              }
-            ]
-          },
-          "amount": {
-            "operations": [{ "type": "get_increase_amount" }]
-          }
-        },
         "experience": [
           {
-            "condition": "is_mine",
-            "expression": "10*amount"
+            "expression": "1"
           }
         ]
       }

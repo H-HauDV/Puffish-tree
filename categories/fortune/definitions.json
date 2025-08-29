@@ -17,7 +17,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "unlock_command": "puffish_skills category erase @s fortune"
+          "command": "puffish_skills skills reset @s puffish_skills:fortune"
         }
       }
     ]
