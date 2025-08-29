@@ -1,382 +1,44 @@
 {
-	"step_height +1": {
-		"title": "+1 Step height",
-		"frame": {
-			"type": "advancement",
-			"data": {
-				"frame": "challenge"
-			}
-		},
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond_boots"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "forge:step_height_addition",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "vwduybvipb73361b"
-		}
-	},
-	"stamina+3%": {
-		"title": "+3% Stamina",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "saturation"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.stamina",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "i2gm0z41zs5n7jl9"
-		}
-	},
-	"resistance+1%": {
-		"title": "+1% Resistance",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "resistance"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.resistance",
-					"value": 0.01,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "zjh0mvai5lgvrvfw"
-		}
-	},
-	"armor+2": {
-		"title": "+2 Armor",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:iron_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:generic.armor",
-					"value": 2,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "dvs4u3qdjckz6gt0"
-		}
-	},
-	"armor_toughness+1": {
-		"title": "+1 Armor Toughness",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "minecraft:netherite_chestplate"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "minecraft:generic.armor_toughness",
-					"value": 1,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "70vme3j7dtq9wig7"
-		}
-	},
-	"melee_damage+3%": {
-		"title": "+3% Melee Damage",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "strength"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.melee_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "dbu3ez4nkcvu0stl"
-		}
-	},
-	"ranged_damage+3%": {
-		"title": "+3% Ranged Damage",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "bow"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.ranged_damage",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "w7iz1ftwmuluaagk"
-		}
-	},
-	"luck+0.5": {
-		"title": "+0.5 Luck",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "luck"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.luck",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "ixpvce7t6cqahtrn"
-		}
-	},
-	"fortune+0.5": {
-		"title": "+0.5 Fortune",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.fortune",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "gxpe1bqbq1glgg24"
-		}
-	},
-	"movement_speed+3%": {
-		"title": "+3% Movement Speed",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "speed"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.movement_speed",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "k3r4nyiy1tdlzicl"
-		}
-	},
-	"attack_speed+5%": {
-		"title": "+5% Attack Speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "wooden_sword"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "generic.attack_speed",
-					"value": 0.05,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "aoc9k032yaphzvgh"
-		}
-	},
-	"reach_distance+0.5": {
-		"title": "+0.5 Reach distance",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "stick"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "forge:reach_distance",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "n54et1aai836pk78"
-		}
-	},
-	"attack_range +0.5": {
-		"title": "+0.5 Attack range",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "diamond_sword"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "forge:attack_range",
-					"value": 0.5,
-					"operation": "addition"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "14fmz0qxqda8dx2i"
-		}
-	},
-	"healing +3%": {
-		"title": "+3% Healing",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "regeneration"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_skills:player.healing",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "nffjky4rw9lxuf9k"
-		}
-	},
-	"mana_regen +3%": {
-		"title": "+3% Mana regen",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "lapis_lazuli"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "the_vault:generic.mana_regen",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "36m7t2rnwfx34lyz"
-		}
-	},
-	"jump +2%": {
-		"title": "+2% Jump height",
-		"icon": {
-			"type": "effect",
-			"data": {
-				"effect": "jump_boost"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "puffish_attributes:player.jump",
-					"value": 0.02,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "gx7f2ta7l8ph3ukk"
-		}
-	},
-	"swim_speed +3%": {
-		"title": "+3% Swim speed",
-		"icon": {
-			"type": "item",
-			"data": {
-				"item": "water_bucket"
-			}
-		},
-		"rewards": [
-			{
-				"type": "puffish_skills:attribute",
-				"data": {
-					"attribute": "forge:swim_speed",
-					"value": 0.03,
-					"operation": "multiply_total"
-				}
-			}
-		],
-		"metadata": {
-			"icon": "vs6j1z19yx4ss4km"
-		}
-	}
+  "resetFortune": {
+    "title": "Reset Fortune",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "unlock_command": "puffish_skills category erase @s fortune"
+        }
+      }
+    ]
+  },
+  "fortune+1": {
+    "title": "+1 Fortune",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "diamond"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_skills:player.fortune",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  }
 }
