@@ -2,11 +2,11 @@
   "unlocked_by_default": true,
   "starting_points": 0,
   "exclusive_root": true,
-  "title": "Fortune",
+  "title": "Movement",
   "icon": {
-    "type": "item",
+    "type": "effect",
     "data": {
-      "item": "diamond"
+      "effect": "speed"
     }
   },
   "background": "textures/gui/advancements/backgrounds/stone.png"

@@ -1,6 +1,6 @@
 {
-  "resetFortune": {
-    "title": "Reset Fortune",
+  "resetSerendipity": {
+    "title": "Reset Serendipity",
     "frame": {
       "type": "advancement",
       "data": {
@@ -17,7 +17,7 @@
       {
         "type": "puffish_skills:command",
         "data": {
-          "command": "puffish_skills skills reset @s puffish_skills:fortune"
+          "command": "puffish_skills skills reset @s puffish_skills:serendipity"
         }
       }
     ]
@@ -35,6 +35,25 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "puffish_skills:player.fortune",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "luck+1": {
+    "title": "+1 Luck",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "luck"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
           "value": 1,
           "operation": "addition"
         }

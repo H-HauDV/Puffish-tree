@@ -1,0 +1,139 @@
+{
+  "resetMovement": {
+    "title": "Reset Movement",
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "compass"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:command",
+        "data": {
+          "command": "puffish_skills skills reset @s puffish_skills:movement"
+        }
+      }
+    ]
+  },
+  "movement_speed+5%": {
+    "title": "+5% Movement Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "speed"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "movement_speed-5%": {
+    "title": "-5% Movement Speed",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "slowness"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": -0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "fallReduction+5%": {
+    "title": "5% Fall Reduction",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "slime_block"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.fall_reduction",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "jump +5%": {
+    "title": "+5% Jump height",
+    "icon": {
+      "type": "effect",
+      "data": {
+        "effect": "jump_boost"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.jump",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "sprint_speed+5%": {
+    "title": "5% Sprint Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "golden_boots"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:player.sprinting_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "swim_speed+5%": {
+    "title": "5% Swim Speed",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "water_bucket"
+      }
+    },
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  }
+}

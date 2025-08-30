@@ -4,6 +4,7 @@
 	"show_warnings": true,
 
 	"categories": [
-		"fortune"
+		"serendipity",
+        "movement"
 	]
 }

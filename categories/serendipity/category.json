@@ -1,0 +1,13 @@
+{
+  "unlocked_by_default": true,
+  "starting_points": 0,
+  "exclusive_root": true,
+  "title": "Serendipity",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "diamond"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/stone.png"
+}
