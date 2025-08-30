@@ -23,7 +23,7 @@
     ]
   },
   "maxhealth_+1": {
-    "title": "+1 Heart",
+    "title": "+1 Health",
     "icon": {
       "type": "effect",
       "data": {
@@ -35,7 +35,7 @@
         "type": "puffish_skills:attribute",
         "data": {
           "attribute": "generic.max_health",
-          "value": 2,
+          "value": 1,
           "operation": "addition"
         }
       }

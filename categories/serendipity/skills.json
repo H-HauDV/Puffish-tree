@@ -939,6 +939,6 @@
 		"definition": "resetSerendipity",
 		"x": 0,
 		"y": 0,
-		"root": false
+		"root": true
 	}
 }
