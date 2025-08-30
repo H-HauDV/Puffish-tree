@@ -5,6 +5,8 @@
 
 	"categories": [
 		"serendipity",
-        "movement"
+        "movement",
+		"defense",
+		"attack"
 	]
 }
